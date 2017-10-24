@@ -221,10 +221,6 @@ a{
 }
 .child{
   display: none;
-  transition: display 2s;
-  -moz-transition: display 2s; /* Firefox 4 */
-  -webkit-transition: display 2s; /* Safari and Chrome */
-  -o-transition: display 2s; /* Opera */
 }
 .toggle-nav:hover .child{
   display: block;
